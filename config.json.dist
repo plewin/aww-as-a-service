@@ -1,0 +1,15 @@
+{
+  "aws": {
+    "accessKeyId": "...",
+    "secretAccessKey": "...",
+    "region": "..."
+  },
+  "mail": {
+    "to": [""],
+    "from": "",
+    "subject": "Photo du jour bonjour !"
+  },
+  "reddit": {
+    "url": "https://www.reddit.com/r/aww/top.json"
+  }
+}

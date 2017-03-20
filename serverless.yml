@@ -1,0 +1,13 @@
+service: aww-as-a-service
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - schedule:
+          rate: cron(30 7 * * ? *)
+          enabled: true
